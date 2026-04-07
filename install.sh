@@ -15,7 +15,7 @@ show_progress() {
 
 error_exit() {
     echo -e "\nErro: $1"
-    return
+    exit 1
 }
 
 increment_step() {
