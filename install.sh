@@ -56,11 +56,11 @@ else
             ;;
         debian)
             case $VERSION in
-                12*|11*|10*|9*)
+                13*|12*|11*|10*|9*)
                     show_progress "Sistema Debian suportado, continuando..."
                     ;;
                 *)
-                    error_exit "Versão do Debian não suportada. Use 9, 10, 11 ou 12."
+                    error_exit "Versão do Debian não suportada. Use 9, 10, 11, 12 ou 13."
                     ;;
             esac
             ;;
